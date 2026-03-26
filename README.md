@@ -1,16 +1,11 @@
-# React + Vite
+#  (맛집 탐방 사이트)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> **실시간 검색과 찜하기 기능이 포함된 MZ세대 타겟 맛집 큐레이션 서비스**
 
-Currently, two official plugins are available:
+## 🔗 배포 주소
+[https://food-list-nu.vercel.app/](https://food-list-nu.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **실시간 검색**: 입력과 동시에 맛집 리스트 필터링
+* **스마트 찜 시스템**: 원하는 맛집을 북마크하고 상단에서 실시간 확인
+* **반응형 UI**: Tailwind CSS를 활용한 모바일/데스크탑 최적화
