@@ -1,16 +1,26 @@
-# React + Vite
+#  (맛집 탐방 사이트)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> **실시간 검색과 찜하기 기능이 포함된 MZ세대 타겟 맛집 큐레이션 서비스**
 
-Currently, two official plugins are available:
+## 🔗 배포 주소
+[https://food-list-nu.vercel.app/](https://food-list-nu.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## React Compiler
+* **실시간 검색**: 입력과 동시에 맛집 리스트 필터링
+* **스마트 찜 시스템**: 원하는 맛집을 북마크하고 상단에서 실시간 확인
+* **반응형 UI**: Tailwind CSS를 활용한 모바일/데스크탑 최적화
+1. 로컬 서버 실행 방법
+서비스의 정상적인 작동(데이터 로드 및 기능 활성화)을 위해 아래 순서로 백엔드 서버를 먼저 실행해야 합니다.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+터미널에서 백엔드 폴더로 이동: cd eatingMark-BE
 
-## Expanding the ESLint configuration
+서버 실행: node app.js
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+서버가 켜진 상태에서 프론트엔드 사이트 접속
+
+2. 업데이트된 맛집 데이터 (Dummy Data)
+현재 총 14개의 전국 주요 맛집 데이터가 백엔드에 구축되어 있습니다.
+
+주요 지역: 서울(을지로, 마포, 가로수길, 여의도), 부산, 제주, 강릉, 전주, 경주 등
+
+데이터 구조: id, title, image, district, tag, location(lat, lon), description 등 상세 정보 포함
