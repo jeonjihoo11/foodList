@@ -11,8 +11,7 @@
 * **반응형 UI**: Tailwind CSS를 활용한 모바일/데스크탑 최적화
 1. 로컬 서버 실행 방법
 서비스의 정상적인 작동(데이터 로드 및 기능 활성화)을 위해 아래 순서로 백엔드 서버를 먼저 실행해야 합니다.
-
-터미널에서 백엔드 폴더로 이동: cd eatingMark-BE
+https://github.com/jeonjihoo11/foodList-Backend.git 이 백엔드 저장소에가서 백엔드 파일을 직접 실행합니다.
 
 서버 실행: node app.js
 
